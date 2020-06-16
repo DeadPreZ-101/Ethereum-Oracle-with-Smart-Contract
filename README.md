@@ -1,14 +1,14 @@
 # Ethereum-Oracle-with-Smart-Contract
 An Oracle created to retrieve the 'Price' and the 'Volume' of any 'Stock'. 
 
-#Instructions 
+## Instructions 
 - First run 'truffle develop' in the 'Contract' directory.
 - Run 'truffle compile' and 'truffle migrate'
 - copy the JSON file in the 'Contract/build' folder called 'StockOracle.json' into the 'src' folder found in the root of the directory.
 - This will update any required changes regarding the new contract adress and the contract ABI.
 - Once this is done, you should be able to to run 'npm start' in the root, which will start the web interface. 
 
-#Web Interface Instructions 
+## Web Interface Instructions 
 - You can use the searchbox to find any specific stock you like
 - Once you add the stock, you will be able to retrieve the the price and the volume of the stock you have added.
 
